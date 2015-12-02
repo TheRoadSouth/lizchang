@@ -1,0 +1,338 @@
+{
+   "projects":{
+      "ui":[
+         {
+            "id":1,
+            "slug":"view",
+            "visible":true,
+            "section":"ui",
+            "title":"View Dynamic Glass Responsive Website",
+            "description":"<p>View is a company that produces electronically tinted glass.</p><p>The goal of this site was to present the technical concepts behind the View Dynamic Glass solution to users in a quick and easy to understand way. The graphics and layout were optimized for mobile devices as well as desktop.</p>",
+            "category":[
+               "UI",
+               "Web",
+               "Mobile"
+            ],
+            "client":"View",
+            "responsibleFor":[
+               "Responsive Design",
+               "UI",
+               "UX",
+               "Graphics"
+            ],
+            "url":"www.viewglass.com",
+            "completedAt":"Perpective Lab",
+            "completedDate":"2013",
+            "imageFullUrl":"/img/work/view/1300x5918.jpg",
+            "imageCoverUrl":"/img/work/view/cover.jpg",
+            "coverStyle": "wide",
+            "coverWidth":630,
+            "coverHeight":630,
+            "imageWidth":1300,
+            "imageHeight":5918
+         },
+         {
+            "id":2,
+            "slug":"intel",
+            "visible":true,
+            "section":"ui",
+            "title":"Intel Embedded Design Center",
+            "description":"The Intel Embedded Design Center provides resources, tools and support for engineers and developers.</p><p>The goal of this project was to increase developer engagement while providing an easy to navigate platform where engineers can find information, support, and social networking.</p>",
+            "category":[
+               "Web Design"
+            ],
+            "client":"Intel",
+            "responsibleFor":[
+               "Web Design",
+               "UI",
+               "UX"
+            ],
+            "url":"",
+            "completedAt":"Perpective Lab",
+            "completedDate":"2013",
+            "imageFullUrl":"/img/work/intel/1.jpg",
+            "imageCoverUrl":"/img/work/intel/cover.jpg",
+            "coverStyle": "narrow",
+            "coverWidth":310,
+            "coverHeight":630,
+            "imageHeight":650,
+            "imageWidth":650
+         },
+         {
+            "id":3,
+            "slug":"west-hollywood",
+            "visible":true,
+            "section":"ui",
+            "title":"West Hollywood Concept and Wireframes",
+            "description":"<p>West Hollywood is a travel website and online guide which provides information about activities and hotels for people who visit West Hollywood, California.</p><p>The goal of the project was to gather and sort all data into a mind map, create wireframes, and organize large amounts of information for a complex website.</p>",
+            "category":[
+               "Web Design"
+            ],
+            "client":"West Hollywood",
+            "responsibleFor":[
+               "Wireframes",
+               "UX"
+            ],
+            "url":"",
+            "completedAt":"Signature Creative",
+            "completedDate":"2011",
+            "imageFullUrl":"/img/work/westhollywood/1300x3942.jpg",
+            "imageCoverUrl":"/img/work/westhollywood/cover.jpg",
+            "coverStyle": "narrow short",
+            "coverWidth":310,
+            "coverHeight":310
+         },
+         {
+            "id":4,
+            "slug":"perspective-lab",
+            "visible":true,
+            "section":"ui",
+            "title":"Perspective Lab Responsive Website",
+            "description":"<p>Perspective Lab is a graphic design and strategic marketing agency located in San Francisco.</p><p>The goal for the site was to design an easy to navigate and responsive website to showcase Perspective Lab's portfolio.</p>",
+            "category":[
+               "Web Design"
+            ],
+            "client":"Perspective Lab",
+            "responsibleFor":[
+               "Responsive Design",
+               "UI",
+               "UX"
+            ],
+            "url":"",
+            "completedAt":"Perspective Lab",
+            "completedDate":"2012",
+            "imageFullUrl":"/img/work/perspective/1300x1824.jpg",
+            "imageCoverUrl":"/img/work/perspective/cover.jpg",
+            "coverStyle": "wide short",
+            "coverWidth":630,
+            "coverHeight":310
+         }
+      ],
+      "graphic":[
+         {
+            "id":5,
+            "slug":"details",
+            "visible":true,
+            "section":"graphic",
+            "title":"In The Details",
+            "description":"<p>The idea for this project was derived from the unique aspects of different types of paper.</p><p>The paper shown here is Mohawk Superfine. The concept was to focus on the details of the paper. Inspiration was drawn from the fine detail found in Chinese architecture.</p>",
+            "category":[
+               "Graphic Design",
+               "Print"
+            ],
+            "client":"",
+            "responsibleFor":[
+               "Book Design",
+               "Graphics",
+               "Illustrations",
+               "Typography"
+            ],
+            "url":"",
+            "completedAt":"Academy of Art University",
+            "completedDate":"2009",
+            "imageFullUrl":"/img/work/architecture/1300x4550.jpg",
+            "imageCoverUrl":"/img/work/architecture/cover.jpg"
+         },
+         {
+            "id":6,
+            "slug":"applied-materials-calendar",
+            "visible":true,
+            "section":"graphic",
+            "title":"Applied Materials Calendar 2013 & 2014",
+            "description":"<p>Applied Materials is a global company that provides equipment and services to enable the manufacture of semiconductors, flat panel displays and solar photovoltaic products.</p><p>The calendars are a yearly gift for their customers. The goal was to show their complex technology with easy to understand and visually compelling graphics.</p>",
+            "category":[
+               "Graphic Design"
+            ],
+            "client":"Applied Materials",
+            "responsibleFor":[
+               "Graphic Design",
+               "Infographics",
+               "Typography",
+               "Photo Selection"
+            ],
+            "url":"",
+            "completedAt":"Perspective Lab",
+            "completedDate":"2012 & 2013",
+            "imageFullUrl":"/img/work/amatcal-infographics/1300x4906.jpg",
+            "imageCoverUrl":"/img/work/amatcal-infographics/cover.jpg"
+         },
+         {
+            "id":7,
+            "slug":"applied-materials-innovation",
+            "visible":true,
+            "section":"graphic",
+            "title":"Applied Materials Innovation Summit",
+            "description":"<p>This project was a campaign for a series of solar energy events for Applied Materials.</p><p>Work included brainstorming to come up with the theme and graphics for the entire campaign.</p><p>Graphics included posters, banners, giveaway products, identity design, presentation templates.</p>",
+            "category":[
+               "Marketing Campaigns",
+               "Graphic Design",
+               "Identity Systems"
+            ],
+            "client":"Applied Materials",
+            "responsibleFor":[
+               "Concept",
+               "Graphic Design",
+               "Identity Systems",
+               "Typography"
+            ],
+            "url":"",
+            "completedAt":"Perspective Lab",
+            "completedDate":"2012",
+            "imageFullUrl":"/img/work/amatsummit/1300x2142.jpg",
+            "imageCoverUrl":"/img/work/amatsummit/cover.jpg"
+         },
+         {
+            "id":8,
+            "slug":"no-bull",
+            "visible":true,
+            "section":"graphic",
+            "title":"No Bull From Factory Farming",
+            "description":"<p>MFA graphic design thesis.</p><p>No bull is a non–profit organization that informs the public of the truth about the consequences of this industry's practices, establishing a program for social action and reform.</p>",
+            "category":[
+               "Marketing Campaign",
+               "Graphic Design",
+               "Identity Systems"
+            ],
+            "client":"",
+            "responsibleFor":[
+               "Concept",
+               "Graphic Design",
+               "Identity Systems",
+               "Infographics",
+               "Packaging",
+               "Typography",
+               "Book Design",
+               "Web Design"
+            ],
+            "url":"",
+            "completedAt":"Academy of Art University",
+            "completedDate":"2011",
+            "imageFullUrl":"/img/work/nobull/1300%C3%978650.jpg",
+            "imageCoverUrl":"/img/work/nobull/cover.jpg"
+         },
+         {
+            "id":9,
+            "slug":"perspective-identity",
+            "visible":true,
+            "section":"graphic",
+            "title":"Perspective Lab Identity System",
+            "description":"<p>Perspective Lab is a graphic design and strategic marketing agency located in San Francisco.</p><p>The goal of this project was to create an identity system for the company.</p>",
+            "category":[
+               "Identity Systems"
+            ],
+            "client":"",
+            "responsibleFor":[
+               "Identity System",
+               "Logo Design",
+               "Typography"
+            ],
+            "url":"",
+            "completedAt":"Perspective Lab",
+            "completedDate":"2012",
+            "imageFullUrl":"/img/work/identity/1300x1430.jpg",
+            "imageCoverUrl":"/img/work/identity/cover.jpg"
+         },
+         {
+            "id":10,
+            "slug":"prints",
+            "visible":true,
+            "section":"graphic",
+            "title":"Prints",
+            "description":"<p>Poster 1: Transamerica Pyramid SF as seen on various days</p><p>Wedding Menu: Hand drawn wedding menu</p><p>Poster 2: A hand drawn poster displaying back to school trends</p>",
+            "category":[
+               "Graphic Design",
+               "Photography",
+               "Illustrations"
+            ],
+            "client":"",
+            "responsibleFor":[
+               "Graphic Design",
+               "Photography",
+               "Illustrations"
+            ],
+            "url":"",
+            "completedAt":"Freelance Projects",
+            "completedDate":"2011",
+            "imageFullUrl":"/img/work/illustration-photography/1300x5364.jpg",
+            "imageCoverUrl":"/img/work/illustration-photography/cover.jpg"
+         },
+         {
+            "id":11,
+            "slug":"experimental-typography",
+            "visible":true,
+            "section":"graphic",
+            "title":"Experimental Typography",
+            "description":"<p>This project focused on type setting. It provided an opportunity to experiment by emulating masterpieces from artists such as Wolfgang Weigart and Emil Ruder. This is typography inspired by the aesthetics of their work.</p>",
+            "category":[
+               "Typography"
+            ],
+            "client":"",
+            "responsibleFor":[
+               "Typography"
+            ],
+            "url":"",
+            "completedAt":"Academy of Art University",
+            "completedDate":"2008",
+            "imageFullUrl":"/img/work/typography/1300x3708.jpg",
+            "imageCoverUrl":"/img/work/typography/cover.jpg"
+         }
+      ]
+   },
+   "about":{
+      "bio":{
+         "title":"Connecting Visual, Product and UI Design",
+         "description":"<p>Liz Chang is a UI Designer with a background in graphic and product design. She started out her career in Hong Kong as a Product Designer and completed her MFA in Graphic Design at the Academy of Art University in San Francisco.</p><p>Since then she has continued her career in San Francisco focused primarily on UI and graphic design, working at agencies such as Perspective Lab, Attik, and Liquid, as well as freelance.</p><p>Currently Liz is a UI Designer at Cleantech Group, focused on a major redesign of the product across web and mobile platforms.</p>",
+         "imageUrl":"http://lizchangsiusin.net/img/about-liz-chang.jpg",
+         "imageWidth":600,
+         "imageHeight":290
+      },
+      "experience":[
+         {
+            "title":"UI Designer",
+            "where":"Cleantech Group",
+            "when":"May 2014 – Present"
+         },
+         {
+            "title":"Graphic Designer",
+            "where":"Perspective Lab",
+            "when":"Jan. 2012 – May 2014"
+         },
+         {
+            "title":"Graphic Design Intern",
+            "where":"ATTIK",
+            "when":"Sep. 2011 – Nov. 2011"
+         },
+         {
+            "title":"Graphic Design Contractor",
+            "where":"Liquid Agency",
+            "when":"Aug. 2011 – Sep. 2011"
+         },
+         {
+            "title":"Product/Industrial Designer",
+            "where":"Brean Distributors Way Limited",
+            "when":"Sep. 2006 – Jun. 2007"
+         }
+      ],
+      "education":[
+         {
+            "school":"Academy of Art University",
+            "degree":"MFA, Graphic Design",
+            "years":"2007 – 2011"
+         },
+         {
+            "school":"University of Central England in Birmingham",
+            "degree":"BA (Hons.), Product Design (Industrial Design)",
+            "years":"2005 – 2006"
+         },
+         {
+            "school":"Hong Kong Institute of Vocational Education",
+            "degree":"Higher Diploma, Product Design and Technology",
+            "years":"2002 – 2005"
+         }
+      ],
+      "linkedInUrl":"http://www.linkedin.com/pub/liz-chang/4/1a4/160",
+      "cvUrl":"/pdf/Liz-Chang-Resume-2014.pdf",
+      "email":"lizchangsiusin@gmail.com"
+   },
+   "logoUrl":"/img/Liz-Chang.png"
+}

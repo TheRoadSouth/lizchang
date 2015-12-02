@@ -1,0 +1,112 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+
+
+html,body,div,span,applet,object,iframe,
+img,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+}
+h1,h2,h3,h4,h5,h6,p, {
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+
+ol,ul{
+    list-style:none;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/*------------------------------------*\
+    NORMALIZE
+\*------------------------------------*/
+
+/**
+* Remove inner padding and border in Firefox 4+.
+*/
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/**
+* 1. Remove default vertical scrollbar in IE 8/9.
+* 2. Improve readability and alignment in all browsers.
+*/
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/**
+* Remove the gray background color from active links in IE 10.
+*/
+
+a {
+    background: transparent;
+}
+
+/**
+* Address `outline` inconsistency between Chrome and other browsers.
+*/
+
+a:focus {
+    outline: thin dotted;
+}
+
+/**
+* Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+*/
+
+b,
+strong {
+    font-weight: bold;
+}
+
+/**
+* 1. Correct font family not being inherited in all browsers.
+* 2. Correct font size not being inherited in all browsers.
+* 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+*/
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/**
+* Address Firefox 4+ setting `line-height` on `input` using `!important` in
+* the UA stylesheet.
+*/
+
+button,
+input {
+    line-height: normal;
+}
