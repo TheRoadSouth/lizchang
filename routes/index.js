@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var displaySection = require('./displaySection');
+var displaySection = require('./displaysection');
 
 router.get('/', function(req, res, next) {
   var fs = require('fs'),
