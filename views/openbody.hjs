@@ -1,0 +1,33 @@
+<div id="Container">
+  <div id="InnerContainer" class="clearfix">
+
+    <header id="Top" role="banner">
+      <h1 class="title-main"><a href="."><img src="/img/Liz-Chang.png" height="20" width="108" alt="Liz Chang" /></a></h1>
+      <nav id="NavSecondary" role="navigation">
+        <ul>
+          <li class="email">
+            <a href="mailto:lizchangsiusin@gmail.com" title="Email Liz"></a>
+          </li>
+          <li class="cv">
+            <a href="pdf/Liz-Chang-Resume-2014.pdf" title="CV / Resume" target="_blank"></a>
+          </li>
+          <li class="linkedin">
+            <a href="http://www.linkedin.com/pub/liz-chang/4/1a4/160" target="_blank" title="Liz Chang | LinkedIn"></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav id="NavMain" role="navigation">
+      <ul>
+        <li class="active">
+          <a data-content="UI" href="/" class="ui">UI/Web</a>
+        </li>
+        <li>
+          <a data-content="Graphic" href="/graphic" class="graphic">Graphic/Print</a>
+        </li>
+        <li>
+          <a data-content="About" href="/about" class="about">About</a>
+        </li>
+      </ul>
+    </nav>
