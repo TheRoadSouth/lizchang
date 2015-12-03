@@ -2,8 +2,12 @@
 
 body {
     background: #fff;
-    color: #959595;
+    color: #000;
     font-family: 'Abel', sans-serif;
+}
+
+div a {
+  height: 100%;
 }
 
 header,
@@ -58,13 +62,9 @@ footer {
 	}
 }
 
-#Graphic,
-#About {
-	display: none;
-}
-
 #About {
 	padding: 5px;
+  color: #959595;
 }
 
 #About h2 {
@@ -186,7 +186,7 @@ footer:after {
     text-align: left;
     width: 100%;
     padding-left: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 #NavSecondary {
@@ -268,9 +268,9 @@ nav ul li a:active {
 	cursor: pointer;
 }
 
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
 
 	.email,
 	.cv,
@@ -307,77 +307,12 @@ nav ul li a:active {
 	}
 }
 
-/* modal overrides */
-
-#RhCloseWrap {
-	padding: 0;
-	position: absolute;
-	top: 20px;
-	right: 0px;
-	width: 270px;
-	z-index: 1;
-}
-
-#RhClose {
-	background: url("../img/modal-sprite.png") transparent no-repeat 0 -34px;
-	right: 0;
-	top: 0;
-}
-
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) {
-
-	#RhClose {
-		background: url("../img/modal-sprite.png") transparent no-repeat 0 -34px;
-		background-size: 17px 50px;
-	}
-
-}
-
-#RhCloseWrap span {
-	float: left;
-	height: 16px;
-	font-size: 14px;
-}
-
-.prev,
-.next {
-	width: 10px;
-	display: block;
-}
-
-.prev {
-	background: url("../img/modal-sprite.png") transparent no-repeat 0 0;
-	padding-right: 40px;
-	margin-left: 20px;
-}
-
-.next {
-	background: url("../img/modal-sprite.png") transparent no-repeat 0 -16px;
-	padding-right: 20px;
-}
-
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) {
-
-	.prev {
-		background: url("../img/modal-sprite2x.png") transparent no-repeat 0 0;
-		background-size: 17px 50px;
-	}
-
-	.next {
-		background: url("../img/modal-sprite2x.png") transparent no-repeat 0 -16px;
-		background-size: 17px 50px;
-	}
-
-}
-
-/* modal contents */
-
-.content-wrapper {
-	display: none;
+/* old modal content adapted for new node site (without modals) */
+.back {
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #e55a19;
 }
 
 .curr {
@@ -385,18 +320,15 @@ nav ul li a:active {
 }
 
 .left {
-	height: 625px;
 	width: 650px;
-	overflow-y: auto;
-	overflow-x: hidden;
 	float: left;
+  margin-bottom: 50px;
 }
 
 .right {
 	height: 625px;
-	width: 245px;
+	width: 310px;
 	float: left;
-	color: #fff;
 	overflow-y: auto;
 	overflow-x: hidden;
 }
@@ -415,48 +347,10 @@ nav ul li a:active {
 		max-width: 100% !important;
 		height: auto !important;
 	}
-	#RhContent {
-		-webkit-transform: translateZ(0);
-	}
-	#RhWrap,
-	.left {
-		overflow: auto;
-		-webkit-overflow-scrolling: touch;
-		-webkit-transform: translateZ(0);
-	}
-	#RhWrap .left-inner {
-		display: relative;
-	}
-	#RhContent img,
-	#RhContent div {
-		-webkit-transform: translateZ(0);
-	}
-	#RhModal {
-		max-width: 640px;
-	}
-	#RhCloseWrap {
-		border-radius: 0 4px 0;
-		width: 34px;
-		right: 15px;
-		padding-top: 2px;
-		top: 19px;
-	}
-	#RhClose {
-		right: 1px;
-    	top: 3px;
-	}
-	.next,
-	.prev,
-	.next-proj,
-	#RhUp,
-	#RhDown {
-		display: none;
-	}
 }
 
 .right-inner {
-	padding: 30px 0px 10px 38px;
-	margin-top: 25px;
+	padding: 0px 0px 10px 38px;
 }
 
 .right-inner h2 {

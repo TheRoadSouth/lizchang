@@ -28,8 +28,8 @@
             "coverStyle": "wide",
             "coverWidth":630,
             "coverHeight":630,
-            "imageWidth":1300,
-            "imageHeight":5918
+            "imageWidth":650,
+            "imageHeight":2959
          },
          {
             "id":2,
@@ -55,8 +55,8 @@
             "coverStyle": "narrow",
             "coverWidth":310,
             "coverHeight":630,
-            "imageHeight":650,
-            "imageWidth":650
+            "imageWidth":650,
+            "imageHeight":650
          },
          {
             "id":3,
@@ -80,7 +80,9 @@
             "imageCoverUrl":"/img/work/westhollywood/cover.jpg",
             "coverStyle": "narrow short",
             "coverWidth":310,
-            "coverHeight":310
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":1971
          },
          {
             "id":4,
@@ -105,7 +107,9 @@
             "imageCoverUrl":"/img/work/perspective/cover.jpg",
             "coverStyle": "wide short",
             "coverWidth":630,
-            "coverHeight":310
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":912
          }
       ],
       "graphic":[
@@ -131,7 +135,12 @@
             "completedAt":"Academy of Art University",
             "completedDate":"2009",
             "imageFullUrl":"/img/work/architecture/1300x4550.jpg",
-            "imageCoverUrl":"/img/work/architecture/cover.jpg"
+            "imageCoverUrl":"/img/work/architecture/cover.jpg",
+            "coverStyle": "narrow tall",
+            "coverWidth":310,
+            "coverHeight":630,
+            "imageWidth":650,
+            "imageHeight":2275
          },
          {
             "id":6,
@@ -154,7 +163,12 @@
             "completedAt":"Perspective Lab",
             "completedDate":"2012 & 2013",
             "imageFullUrl":"/img/work/amatcal-infographics/1300x4906.jpg",
-            "imageCoverUrl":"/img/work/amatcal-infographics/cover.jpg"
+            "imageCoverUrl":"/img/work/amatcal-infographics/cover.jpg",
+            "coverStyle": "wide short",
+            "coverWidth":630,
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":2275
          },
          {
             "id":7,
@@ -179,7 +193,12 @@
             "completedAt":"Perspective Lab",
             "completedDate":"2012",
             "imageFullUrl":"/img/work/amatsummit/1300x2142.jpg",
-            "imageCoverUrl":"/img/work/amatsummit/cover.jpg"
+            "imageCoverUrl":"/img/work/amatsummit/cover.jpg",
+            "coverStyle": "narrow short",
+            "coverWidth":310,
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":1071
          },
          {
             "id":8,
@@ -208,7 +227,12 @@
             "completedAt":"Academy of Art University",
             "completedDate":"2011",
             "imageFullUrl":"/img/work/nobull/1300%C3%978650.jpg",
-            "imageCoverUrl":"/img/work/nobull/cover.jpg"
+            "imageCoverUrl":"/img/work/nobull/cover.jpg",
+            "coverStyle": "narrow short",
+            "coverWidth":310,
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":4325
          },
          {
             "id":9,
@@ -230,7 +254,12 @@
             "completedAt":"Perspective Lab",
             "completedDate":"2012",
             "imageFullUrl":"/img/work/identity/1300x1430.jpg",
-            "imageCoverUrl":"/img/work/identity/cover.jpg"
+            "imageCoverUrl":"/img/work/identity/cover.jpg",
+            "coverStyle": "narrow short",
+            "coverWidth":310,
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":715
          },
          {
             "id":10,
@@ -254,7 +283,12 @@
             "completedAt":"Freelance Projects",
             "completedDate":"2011",
             "imageFullUrl":"/img/work/illustration-photography/1300x5364.jpg",
-            "imageCoverUrl":"/img/work/illustration-photography/cover.jpg"
+            "imageCoverUrl":"/img/work/illustration-photography/cover.jpg",
+            "coverStyle": "narrow short",
+            "coverWidth":310,
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":2682
          },
          {
             "id":11,
@@ -274,7 +308,12 @@
             "completedAt":"Academy of Art University",
             "completedDate":"2008",
             "imageFullUrl":"/img/work/typography/1300x3708.jpg",
-            "imageCoverUrl":"/img/work/typography/cover.jpg"
+            "imageCoverUrl":"/img/work/typography/cover.jpg",
+            "coverStyle": "narrow short",
+            "coverWidth":310,
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":1854
          }
       ]
    },

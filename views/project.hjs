@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="Container">
-      <div id="InnerContainer">
+      <div id="InnerContainer" class="clearfix">
         <header id="Top" role="banner">
           <h1 class="title-main"><a href="."><img src="/img/Liz-Chang.png" height="20" width="108" alt="Liz Chang" /></a></h1>
           <nav id="NavSecondary" role="navigation">
@@ -42,17 +42,35 @@
           </ul>
         </nav>
 
-        <h1>{{title}}</h1>
-        <p>{{id}}</p>
-        <p>{{projTitle}}</p>
-        <p>{{{projDesc}}}</p>
-        <p>{{category}}</p>
-        <p>{{client}}</p>
-        <p>{{responsibleFor}}</p>
-        <p>{{url}}</p>
-        <p>{{completedAt}}</p>
-        <p>{{completedDate}}</p>
-        <p><img height="{{imageHeight}}" width="{{imageWidth}}" src="{{imageFullUrl}}" alt="{{title}}" title="{{title}}" /></p>
+        <div id="Project{{id}}" class="content-wrapper clearfix">
+            <div class="left">
+                <img height="{{imageHeight}}" width="{{imageWidth}}" src="{{imageFullUrl}}" alt="{{title}}" title="{{title}}" />
+            </div>
+            <div class="right">
+                <div class="right-inner">
+                    <a class="back" href="{{returnUrl}}">&laquo; back</a>
+                    <h2>{{title}}</h2>
+                    {{{projDesc}}}
+                    <div class="additional-info">
+                        <div class="category">
+                            <p>Category: {{category}}</p>
+                        </div>
+                        <div class="client">
+                            <p>Client: {{client}}</p>
+                        </div>
+                        <div class="responsible">
+                            <p>Responsible For: {{responsibleFor}}</p>
+                        </div>
+                        <div class="url">
+                            <p>{{url}}</p>
+                        </div>
+                        <div class="while">
+                            <p>Project completed at {{completedAt}}, {{completedDate}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer><p class="visuallyhidden">Copyright Liz Chang. <a href="http://www.netnewmedia.com">Website by Net New Media</a></footer>
       </div>
