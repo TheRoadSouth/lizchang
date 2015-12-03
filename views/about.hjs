@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
+    <title>About Liz Chang</title>
+    <meta name="description" content="About Liz Chang, UI Designer.">
+    <meta name="viewport" content="width=device-width">
     <link rel='stylesheet' href='/css/normalize.css' />
     <link rel='stylesheet' href='/css/base.css' />
     <link rel='stylesheet' href='/css/main.css' />
