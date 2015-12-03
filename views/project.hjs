@@ -31,13 +31,13 @@
 
         <nav id="NavMain" role="navigation">
           <ul>
-            <li>
+            <li id="UI" class="nav-link">
               <a href="/" class="ui">UI/Web</a>
             </li>
-            <li>
+            <li id="Graphic" class="nav-link">
               <a href="/graphic" class="graphic">Graphic/Print</a>
             </li>
-            <li>
+            <li id="About" class="nav-link">
               <a href="/about" class="about">About</a>
             </li>
           </ul>
