@@ -9,7 +9,7 @@
     el.classList.remove("active");
   });
 
-  (currPath === 'ui' || currPath === '') ?  UILink.className = "active" : "";
-  (currPath === 'graphic') ? GraphicLink.className = "active" : "";
-  (currPath === 'about') ? AboutLink.className = "active" : "";
+  UILink.className = currPath === 'ui' || currPath === '' ?  "active" : "";
+  GraphicLink.className = currPath === 'graphic' ? "active" : "";
+  AboutLink.className = currPath === 'about' ? "active" : "";
 })()
