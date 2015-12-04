@@ -24,8 +24,8 @@ var displaySection = function(req, res, next, section, returnUrl) {
         projTitle = idx.title;
         projDesc = idx.description;
         client = idx.client;
-        category = idx.category;
-        responsibleFor = idx.responsibleFor;
+        category = idx.category.join(', ');
+        responsibleFor = idx.responsibleFor.join(', ');
         url = idx.url;
         completedAt = idx.completedAt;
         completedDate = idx.completedDate;
@@ -46,8 +46,9 @@ var displaySection = function(req, res, next, section, returnUrl) {
       url: url,
       completedAt: completedAt,
       completedDate: completedDate,
-      imageFullUrl: imageFullUrl });
+      imageFullUrl: imageFullUrl
+    });
   });
 }
 
-  module.exports = displaySection;
+module.exports = displaySection;
