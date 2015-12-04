@@ -57,7 +57,7 @@
                             <p>Category: {{category}}</p>
                         </div>
                         <div class="client">
-                            <p>Client: {{client}}</p>
+                            {{#client}}<p>Client: {{client}}</p>{{/client}}
                         </div>
                         <div class="responsible">
                             <p>Responsible For: {{responsibleFor}}</p>
