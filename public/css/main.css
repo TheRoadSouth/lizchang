@@ -11,6 +11,10 @@ div a {
   display: inline-block;
 }
 
+.grey {
+  color: #959595;
+}
+
 header,
 nav,
 article,
@@ -368,12 +372,4 @@ nav ul li a:active {
 .right-inner .additional-info p {
 	font-size: 14px;
 	margin: 10px 0 0;
-}
-
-.right-inner .additional-info a {
-	color: #fff;
-}
-
-.right-inner .additional-info .while p {
-	color: #959595;
 }

@@ -51,7 +51,7 @@
                 <div class="right-inner">
                     <a class="back" href="{{returnUrl}}">&laquo; back</a>
                     <h2>{{title}}</h2>
-                    {{{projDesc}}}
+                    <div class="grey">{{{projDesc}}}</div>
                     <div class="additional-info">
                         <div class="category">
                             <p>Category: {{category}}</p>
