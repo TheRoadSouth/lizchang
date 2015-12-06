@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
+    <title>Liz Chang Design: {{title}}</title>
     <meta name="viewport" content="width=device-width">
     <link rel='stylesheet' href='/css/normalize.css' />
     <link rel='stylesheet' href='/css/base.css' />
@@ -45,7 +45,7 @@
 
         <div id="Project{{id}}" class="content-wrapper clearfix">
             <div class="left">
-                <img height="{{imageHeight}}" width="{{imageWidth}}" src="{{imageFullUrl}}" alt="{{title}}" title="{{title}}" />
+                <img height="{{imageHeight}}" width="{{imageWidth}}" src="{{imageFullUrl}}" alt="Liz Chang – {{title}}" title="{{title}}" />
             </div>
             <div class="right">
                 <div class="right-inner">
