@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
     if (err) throw err;
     obj = JSON.parse(data);
     projects = obj.projects.ui;
-    res.render('index', { title: 'UI', projects: projects});
+    res.render('index', { projects: projects});
   });
 });
 
@@ -30,7 +30,7 @@ router.get('/graphic', function(req, res, next) {
     if (err) throw err;
     obj = JSON.parse(data);
     projects = obj.projects.graphic;
-    res.render('index', { title: 'UI', projects: projects});
+    res.render('index', { projects: projects});
   });
 });
 
@@ -41,7 +41,7 @@ router.get('/graphic/:id', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About' });
+  res.render('about', { title: 'About Liz Chang' });
 });
 
 module.exports = router;
