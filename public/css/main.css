@@ -339,9 +339,6 @@ nav ul li a:active {
 }
 
 @media (max-width: 960px) {
-	.right {
-		display: none;
-	}
 	.left {
 		height: auto;
 		width: auto;
