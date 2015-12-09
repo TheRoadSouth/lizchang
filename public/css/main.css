@@ -142,7 +142,8 @@ section .wide:hover img {
 }
 
 section .wide,
-section .narrow {
+section .narrow,
+section .fullwidth {
 	height: 630px;
 	margin: 5px;
 	float: left;
@@ -167,7 +168,8 @@ section .short {
 
 @media (max-width: 960px) {
 	section .wide,
-	section .narrow {
+	section .narrow,
+  section .fullwidth {
 		width: 310px;
 		height: 310px;
 		overflow: hidden;
