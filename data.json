@@ -1,8 +1,38 @@
 {
    "projects":{
       "ui":[
+        {
+           "id":"i3Connect",
+           "slug":"i3-connect",
+           "visible":true,
+           "section":"ui",
+           "title":"i3 Connect Platform",
+           "description":"<p>i3 Connect brings together startups and corporates.</p><p>It is designed as a responsive web application for research and communication.</p>",
+           "category":[
+              "UI",
+              "Web",
+              "Mobile"
+           ],
+           "client":"",
+           "responsibleFor":[
+              "Responsive Design",
+              "UI",
+              "UX",
+              "Graphics"
+           ],
+           "url":"www.i3connect.com",
+           "completedAt":"CleanTech Group",
+           "completedDate":"2015",
+           "imageFullUrl":"/img/work/i3/1300x10135.jpg",
+           "imageCoverUrl":"/img/work/i3/cover.jpg",
+           "coverStyle": "short fullwidth",
+           "coverWidth":960,
+           "coverHeight":310,
+           "imageWidth":650,
+           "imageHeight":5067
+        },
          {
-            "id":1,
+            "id":"View",
             "slug":"view",
             "visible":true,
             "section":"ui",
@@ -32,7 +62,7 @@
             "imageHeight":2959
          },
          {
-            "id":2,
+            "id":"Intel",
             "slug":"intel",
             "visible":true,
             "section":"ui",
@@ -59,7 +89,7 @@
             "imageHeight":650
          },
          {
-            "id":3,
+            "id":"WestHollywood",
             "slug":"west-hollywood",
             "visible":true,
             "section":"ui",
@@ -85,36 +115,93 @@
             "imageHeight":1971
          },
          {
-            "id":4,
-            "slug":"perspective-lab",
+            "id":"NameTree",
+            "slug":"nametree",
             "visible":true,
             "section":"ui",
-            "title":"Perspective Lab Responsive Website",
-            "description":"<p>Perspective Lab is a graphic design and strategic marketing agency located in San Francisco.</p><p>The goal for the site was to design an easy to navigate and responsive website to showcase Perspective Lab's portfolio.</p>",
+            "title":"Nametree Web App Concept",
+            "description":"<p>Nametree is a conceptual side project.</p><p>The idea is to create a baby name generator based on genealogical data.</p>",
             "category":[
-               "Web Design"
+               "Web Design",
+               "UI",
+               "UX"
             ],
-            "client":"Perspective Lab",
+            "client":"Freelance",
             "responsibleFor":[
-               "Responsive Design",
+               "Web Design",
                "UI",
                "UX"
             ],
             "url":"",
-            "completedAt":"Perspective Lab",
-            "completedDate":"2012",
-            "imageFullUrl":"/img/work/perspective/1300x1824.jpg",
-            "imageCoverUrl":"/img/work/perspective/cover.jpg",
+            "completedAt":"Freelance",
+            "completedDate":"2015",
+            "imageFullUrl":"/img/work/nametree/1300x3542.jpg",
+            "imageCoverUrl":"/img/work/nametree/cover.jpg",
+            "coverStyle": "narrow short",
+            "coverWidth":630,
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":1771
+         },
+         {
+            "id":"i3StyleGuide",
+            "slug":"i3-styleguide",
+            "visible":true,
+            "section":"ui",
+            "title":"i3 Connect Style Guide",
+            "description":"<p>This project was intended as a thorough style guide for the i3 Connect Platform.</p><p>It was meant to be used to guide other designers and creatives.</p>",
+            "category":[
+               "Web Design",
+               "Style Guides"
+            ],
+            "client":"",
+            "responsibleFor":[
+               "Typography",
+               "Colors",
+               "Styles"
+            ],
+            "url":"",
+            "completedAt":"CleanTech Group",
+            "completedDate":"2015",
+            "imageFullUrl":"/img/work/i3-styleguide/1300x3577.jpg",
+            "imageCoverUrl":"/img/work/i3-styleguide/cover.jpg",
             "coverStyle": "wide short",
             "coverWidth":630,
             "coverHeight":310,
             "imageWidth":650,
-            "imageHeight":912
+            "imageHeight":1788
+         },
+         {
+            "id":"YelpRedesign",
+            "slug":"yelp-redesign",
+            "visible":true,
+            "section":"ui",
+            "title":"Yelp Redesign Concept",
+            "description":"<p>This was a fun side project to reimagine what Yelp would look like with a cleaner design and some color added.</p>",
+            "category":[
+               "Side Projects",
+               "Redesign"
+            ],
+            "client":"",
+            "responsibleFor":[
+               "UI",
+               "UX"
+            ],
+            "url":"",
+            "completedAt":"Freelance",
+            "completedDate":"2014",
+            "imageFullUrl":"/img/work/yelp/1300x3405.jpg",
+            "imageCoverUrl":"/img/work/yelp/cover.jpg",
+            "coverStyle": "narrow short",
+            "coverWidth":310,
+            "coverHeight":310,
+            "imageWidth":650,
+            "imageHeight":1702
          }
       ],
       "graphic":[
          {
-            "id":5,
+            "id":"Details",
             "slug":"details",
             "visible":true,
             "section":"graphic",
@@ -143,7 +230,7 @@
             "imageHeight":2275
          },
          {
-            "id":6,
+            "id":"AppliedCalendar",
             "slug":"applied-materials-calendar",
             "visible":true,
             "section":"graphic",
@@ -171,7 +258,7 @@
             "imageHeight":2275
          },
          {
-            "id":7,
+            "id":"AppliedInnovation",
             "slug":"applied-materials-innovation",
             "visible":true,
             "section":"graphic",
@@ -201,7 +288,7 @@
             "imageHeight":1071
          },
          {
-            "id":8,
+            "id":"NoBull",
             "slug":"no-bull",
             "visible":true,
             "section":"graphic",
@@ -235,7 +322,7 @@
             "imageHeight":4325
          },
          {
-            "id":9,
+            "id":"PerspectiveIdentity",
             "slug":"perspective-identity",
             "visible":true,
             "section":"graphic",
@@ -262,7 +349,7 @@
             "imageHeight":715
          },
          {
-            "id":10,
+            "id":"Prints",
             "slug":"prints",
             "visible":true,
             "section":"graphic",
@@ -291,7 +378,7 @@
             "imageHeight":2682
          },
          {
-            "id":11,
+            "id":"ExperimentalTypography",
             "slug":"experimental-typography",
             "visible":true,
             "section":"graphic",

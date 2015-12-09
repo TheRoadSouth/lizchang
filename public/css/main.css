@@ -149,6 +149,10 @@ section .narrow {
 	cursor: pointer;
 }
 
+section .fullwidth {
+  width: 100%;
+}
+
 section .wide {
 	width: 630px;
 }
