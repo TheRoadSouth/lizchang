@@ -149,7 +149,7 @@
             "visible":true,
             "section":"ui",
             "title":"i3 Connect Style Guide",
-            "description":"<p>This project was intended as a thorough style guide for the i3 Connect Platform.</p><p>It was meant to be used to guide other designers and creatives.</p>",
+            "description":"<p>This project was intended as a thorough style guide for the i3 Connect Platform, to be used by Front End Developers, other designers, and creatives.</p>",
             "category":[
                "Web Design",
                "Style Guides"
