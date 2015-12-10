@@ -12,4 +12,4 @@
   UILink.className = currPath === 'ui' || currPath === '' ?  "active" : "";
   GraphicLink.className = currPath === 'graphic' ? "active" : "";
   AboutLink.className = currPath === 'about' ? "active" : "";
-})()
+})();
