@@ -128,17 +128,21 @@ footer {
 	color: #000;
 }
 
+#About #Main img {
+  border: 1px solid #8e9395;
+}
+
 .portfolio {
 	margin: 0 auto;
 	width: 100%;
 }
-
-section .narrow img,
-section .wide img {
-}
-
-section .narrow:hover img,
-section .wide:hover img {
+section .wide,
+section .narrow,
+section .fullwidth,
+section .short {
+  box-sizing: border-box;
+  /*border: 1px solid #8e9395;*/
+  overflow: hidden;
 }
 
 section .wide,
@@ -151,7 +155,7 @@ section .fullwidth {
 }
 
 section .fullwidth {
-  width: 100%;
+  width: 950px;
 }
 
 section .wide {
