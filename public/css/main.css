@@ -137,7 +137,6 @@ section .narrow,
 section .fullwidth,
 section .short {
   box-sizing: border-box;
-  border: 1px solid #D7DCDE;
   overflow: hidden;
 }
 
