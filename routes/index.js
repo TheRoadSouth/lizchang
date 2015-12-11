@@ -5,13 +5,17 @@ var displaySection = require('./displaysection');
 router.get('/', function(req, res, next) {
   var fs = require('fs'),
     obj,
-    projects;
+    projects,
+    category;
 
   fs.readFile('data.json', 'utf8', function (err, data) {
     if (err) throw err;
     obj = JSON.parse(data);
     projects = obj.projects.ui;
-    res.render('index', { projects: projects});
+    projects.forEach(function(idx) {
+      idx.category = idx.category.join(', ');
+    });
+    res.render('index', { projects: projects });
   });
 });
 
