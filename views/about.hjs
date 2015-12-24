@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <meta name="description" content="About Liz Chang, UI Designer.">
+    <meta name="description" content="About Liz Chang, UI/UX and Product Designer based in the San Francisco Bay Area.">
     <meta name="viewport" content="width=device-width">
     <link rel='stylesheet' href='/css/normalize.css' />
     <link rel='stylesheet' href='/css/base.css' />
