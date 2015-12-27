@@ -1,6 +1,6 @@
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
-var uri = 'mongodb://localhost:27017/lizchangtest';
+var uri = 'mongodb://45.55.23.140:27017/lizchang';
 
 var displayProject = function(req, res, next, returnUrl) {
     MongoClient.connect(uri, function (err, db) {
@@ -25,7 +25,7 @@ var displayProject = function(req, res, next, returnUrl) {
             completedDate: project.completedDate,
             imageFullUrl: project.imageFullUrl
           });
-          
+
           db.close();
         });
       }
