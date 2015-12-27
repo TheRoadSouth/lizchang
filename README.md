@@ -4,7 +4,7 @@ This is a simple Node.js / MongoDB app that powers my wife's [design portfolio](
 
 ## Server Setup
 
-### Basics
+#### Basics
 
 The site runs on two Digital Ocean linux droplets. The first server is for the application itself, and the second is for the Mongo database. Detailed setup for Ubuntu servers at Digital Ocean is covered on their site, but the general idea is:
 
@@ -53,7 +53,7 @@ switched to db YOUR_DB_NAME
 > db.projects.find()
 ```
 
-### Adding a Firewall
+#### Adding a Firewall
 
 For security purposes you should do a few things to lock down your database server. The bare minimum would be to set up a firewall and limit connections.
 
@@ -72,14 +72,14 @@ sudo ufw enable
 
 The app itself is a simple Node.js app using Express. There are just a few things worth pointing out.
 
-### Configuration
+#### Configuration
 
 The app configuration is handled by an NPM module called [nconf](https://github.com/indexzero/nconf). Nconf allows for hierarchical configuration merges. So in this case there is a config on the server and a default config for running locally, which you can see in `nconf_setup.js`.
 
-### Templating
+#### Templating
 
 Hogan is used as the templating engine.
 
-### Data Access
+#### Data Access
 
 Since this is not a high traffic website, data access is very straightforward.  We use the mongodb client to connect to our external database server and query the data.
