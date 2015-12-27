@@ -2,6 +2,8 @@
 
 This is a simple Node.js / MongoDB app that powers my wife's design portfolio (http://lizchangdesign.com). There are different ways to set this up. You could run it off of the data.json data file directly, or you could set it up to use MongoDB. I've done the latter, so I will run through the basics of how to do that here.
 
+### Server Setup
+
 The site runs on two Digital Ocean linux droplets. The first server is for the application itself, and the second is for the Mongo database. Detailed setup for Ubuntu servers at Digital Ocean is covered on their site, but the general idea is:
 
 * Add two droplets and add a new ssh key in control panel
@@ -49,7 +51,7 @@ switched to db YOUR_DB_NAME
 > db.projects.find()
 ```
 
-### Add Firewall
+### Adding a Firewall
 
 For security purposes you should do a few things to lock down your database server. The bare minimum would be to set up a firewall and limit connections.
 
