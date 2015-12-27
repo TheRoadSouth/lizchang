@@ -10,7 +10,6 @@ var displaySection = function(req, res, url, section) {
     if (err) {
       console.log('Unable to connect to the mongoDB server. Error:', err);
     } else {
-      console.log('Connection established to', url);
       var collection = db.collection('projects').find({section: section}).toArray(function(err, docs) {
         if (err) console.log(err);
         docs.forEach(function(idx) {
@@ -29,7 +28,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/:section/:id', function(req, res, next) {
   var returnUrl = '/';
-  displayProject(req, res, next, req.params.section, returnUrl);
+  displayProject(req, res, next, returnUrl);
 });
 
 router.get('/graphic', function(req, res, next) {
