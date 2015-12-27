@@ -17,26 +17,37 @@ cat ~/.ssh/id_rsa.pub | ssh YOUR_USER@YOUR_SERVER_IP "mkdir -p ~/.ssh && cat >> 
 ```
 
 At this point you should be able to log into your database server:
+```bash
 ssh YOUR_USER@YOUR_SERVER_IP
+```
 
 Open the mongo config:
-'nano /etc/mongod.conf'
+```bash
+nano /etc/mongod.conf
+```
 
 Change the bind ip to allow for external connections:
+```bash
 bind_ip = 0.0.0.0
+```
 
 Assuming you have the mongodb client installed, create a general database collection for the site:
+```bash
 mongoimport --host YOUR_SERVER_IP --port 27017 --db YOUR_DB_NAME --collection site --drop --file data-mongo-site.json
+```
 
 Create a database collection for the design projects:
+```bash
 mongoimport --host YOUR_SERVER_IP --port 27017 --db YOUR_DB_NAME --collection projects --drop --file data-mongo-projects.json
+```
 
 Test your database by trying to connect remotely:
-
+```bash
 mongo --host YOUR_SERVER_IP
 > use YOUR_DB_NAME
 switched to db YOUR_DB_NAME
 > db.projects.find()
+```
 
 Add Firewall
 
