@@ -3,7 +3,7 @@ var router = express.Router();
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
 var url = 'mongodb://localhost:27017/lizchangtest';
-var displayProject = require('./displaysection');
+var displayProject = require('./displayproject');
 
 var displaySection = function(req, res, url, section) {
   MongoClient.connect(url, function (err, db) {
@@ -29,18 +29,12 @@ router.get('/', function(req, res, next) {
 
 router.get('/:section/:id', function(req, res, next) {
   var returnUrl = '/';
-    displayProject(req, res, next, req.params.section, returnUrl);
+  displayProject(req, res, next, req.params.section, returnUrl);
 });
 
 router.get('/graphic', function(req, res, next) {
   displaySection(req, res, url, 'graphic');
 });
-
-// router.get('/graphic/:id', function(req, res, next) {
-//   var section = 'graphic',
-//       returnUrl = '/graphic';
-//     displayProject(req, res, next, section, returnUrl);
-// });
 
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About Liz Chang' });
