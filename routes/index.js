@@ -27,21 +27,20 @@ router.get('/', function(req, res, next) {
   displaySection(req, res, url, 'ui');
 });
 
-router.get('/ui/:id', function(req, res, next) {
-  var section = 'ui',
-      returnUrl = '/';
-    displayProject(req, res, next, section, returnUrl);
+router.get('/:section/:id', function(req, res, next) {
+  var returnUrl = '/';
+    displayProject(req, res, next, req.params.section, returnUrl);
 });
 
 router.get('/graphic', function(req, res, next) {
   displaySection(req, res, url, 'graphic');
 });
 
-router.get('/graphic/:id', function(req, res, next) {
-  var section = 'graphic',
-      returnUrl = '/graphic';
-    displayProject(req, res, next, section, returnUrl);
-});
+// router.get('/graphic/:id', function(req, res, next) {
+//   var section = 'graphic',
+//       returnUrl = '/graphic';
+//     displayProject(req, res, next, section, returnUrl);
+// });
 
 router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About Liz Chang' });

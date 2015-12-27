@@ -14,6 +14,8 @@ var displayProject = function(req, res, next, section, returnUrl) {
     imageHeight,
     imageWidth;
 
+    console.log(req);
+
     MongoClient.connect(uri, function (err, db) {
       if (err) {
         console.log('Unable to connect to the mongoDB server. Error:', err);
