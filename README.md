@@ -42,7 +42,7 @@ Assuming you have the mongodb client installed, create a general database collec
 mongoimport --host YOUR_SERVER_IP --port 27017 --db YOUR_DB_NAME --collection site --drop --file data-mongo-site.json
 ```
 
-Create a database collection for the design projects:
+Create another database collection for the design projects:
 ```bash
 mongoimport --host YOUR_SERVER_IP --port 27017 --db YOUR_DB_NAME --collection projects --drop --file data-mongo-projects.json
 ```
