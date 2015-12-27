@@ -4,10 +4,15 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var nconf = require('nconf');
+var nconf_setup = require('./nconf_setup');
+var dbconf = nconf.get('database');
 var routes = require('./routes/index');
 
 var app = express();
+
+// set mongodb url e.g. mongodb://12.34.56.789:27017/my_db_name
+app.set('dburl', "mongodb://" + dbconf.host + ':' + dbconf.port + '/' + dbconf.name);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

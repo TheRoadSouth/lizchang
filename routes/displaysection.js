@@ -1,9 +1,8 @@
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
-var uri = 'mongodb://45.55.23.140:27017/lizchang';
 
-var displaySection = function(req, res, url, section) {
-  MongoClient.connect(url, function (err, db) {
+var displaySection = function(req, res, section) {
+  MongoClient.connect(req.app.settings.dburl, function (err, db) {
     if (err) {
       console.log('Unable to connect to the mongoDB server. Error:', err);
     } else {
