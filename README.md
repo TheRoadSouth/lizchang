@@ -49,7 +49,9 @@ switched to db YOUR_DB_NAME
 > db.projects.find()
 ```
 
-Add Firewall
+### Add Firewall
+
+For security purposes you should do a few things to lock down your database server. The bare minimum would be to set up a firewall and limit connections.
 
 https://www.digitalocean.com/community/tutorials/how-to-use-the-mongodb-one-click-application
 
