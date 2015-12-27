@@ -85,3 +85,7 @@ The app configuration is handled by an NPM module called [nconf](https://github.
 #### Data Access
 
 Since this is not a high traffic website data access is very straightforward.  The [mongodb client](https://mongodb.github.io/node-mongodb-native/api-generated/mongoclient.html) is used to connect to the external database server and query the data. When the data is returned, it is rendered.
+
+#### Process Management
+
+Pm2 is used to management server processes for the application, as [outlined here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04).
