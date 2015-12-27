@@ -20,6 +20,8 @@ cat ~/.ssh/id_rsa.pub | ssh root@YOUR_SERVER_IP "cat >> ~/.ssh/authorized_keys"
 cat ~/.ssh/id_rsa.pub | ssh YOUR_USER@YOUR_SERVER_IP "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
 ```
 
+#### Log in and Configure MongoDB
+
 At this point you should be able to log into your database server:
 ```bash
 ssh YOUR_USER@YOUR_SERVER_IP
