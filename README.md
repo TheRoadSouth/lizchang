@@ -84,4 +84,4 @@ The app configuration is handled by an NPM module called [nconf](https://github.
 
 #### Data Access
 
-Since this is not a high traffic website, data access is very straightforward.  The [mongodb client](https://mongodb.github.io/node-mongodb-native/api-generated/mongoclient.html) is used to connect to the external database server and query the data. When the data is returned, it is rendered.
+Since this is not a high traffic website data access is very straightforward.  The [mongodb client](https://mongodb.github.io/node-mongodb-native/api-generated/mongoclient.html) is used to connect to the external database server and query the data. When the data is returned, it is rendered.
