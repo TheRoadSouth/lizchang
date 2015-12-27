@@ -80,7 +80,7 @@ The app configuration is handled by an NPM module called [nconf](https://github.
 
 #### Templating
 
-Hogan is used as the templating engine.
+[Hogan](http://twitter.github.io/hogan.js/) is used as the templating engine.
 
 #### Data Access
 
