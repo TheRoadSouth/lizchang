@@ -53,9 +53,11 @@ Add Firewall
 
 https://www.digitalocean.com/community/tutorials/how-to-use-the-mongodb-one-click-application
 
+```bash
 sudo apt-get install ufw
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow ssh
 sudo ufw allow from ip.address.to.allow
 sudo ufw enable
+```
