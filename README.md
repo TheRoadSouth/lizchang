@@ -1,8 +1,10 @@
 # lizchang
 
-This is a simple Node.js / MongoDB app that powers my [wife's design portfolio](http://lizchangdesign.com). There are different ways to set this up. You could run it off of the `data.json` file directly, or you could set it up to use MongoDB. I've done the latter, so I will run through the basics of how to do that here.
+This is a simple Node.js / MongoDB app that powers my wife's [design portfolio](http://lizchangdesign.com). There are different ways to set this up. You could run it off of the `data.json` file directly, or you could set it up to use MongoDB. I've done the latter, so I will run through the basics of how to do that here.
 
-### Server Setup
+## Server Setup
+
+### Basics
 
 The site runs on two Digital Ocean linux droplets. The first server is for the application itself, and the second is for the Mongo database. Detailed setup for Ubuntu servers at Digital Ocean is covered on their site, but the general idea is:
 
@@ -65,3 +67,19 @@ sudo ufw allow ssh
 sudo ufw allow from ip.address.to.allow
 sudo ufw enable
 ```
+
+## App Setup
+
+The app itself is a simple Node.js app using Express. There are just a few things worth pointing out.
+
+### Configuration
+
+The app configuration is handled by an NPM module called [nconf](https://github.com/indexzero/nconf). Nconf allows for hierarchical configuration merges. So in this case there is a config on the server and a default config for running locally, which you can see in `nconf_setup.js`.
+
+### Templating
+
+Hogan is used as the templating engine.
+
+### Data Access
+
+Since this is not a high traffic website, data access is very straightforward.  We use the mongodb client to connect to our external database server and query the data.
