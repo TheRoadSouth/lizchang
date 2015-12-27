@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
+    <title>{{pageTitle}}</title>
     <meta name="description" content="About Liz Chang, UI/UX and Product Designer based in the San Francisco Bay Area.">
     <meta name="viewport" content="width=device-width">
     <link rel='stylesheet' href='/css/normalize.css' />
@@ -47,49 +47,28 @@
 
         <section id="About">
             <div id="Main">
-              <h2>Connecting Visual, Product and UI Design</h2>
-              <p>Liz Chang is a UI Designer with a background in graphic and product design. She started out her career in Hong Kong as a Product Designer and completed her MFA in Graphic Design at the Academy of Art University in San Francisco.</p><p>Since then she has continued her career in San Francisco focused primarily on UI and graphic design, working at agencies such as Perspective Lab, Attik, and Liquid, as well as freelance.</p>
-              <p>Currently Liz is a UI Designer at Cleantech Group working on a major redesign of the product across web and mobile platforms.</p>
+              <h2>{{title}}</h2>
+              {{{description}}}
               <img src="/img/about-liz-chang.jpg" width="600" height="290" alt="Liz Chang Design" />
             </div>
             <div id="ExperienceEducation">
                 <div id="Experience">
                     <h2>Experience</h2>
+                    {{#experience}}
                     <p class="entry">
-                        <span class="title">UI Designer</span>
-                        <span class="info">Cleantech Group / May 2014 – Present</span>
+                        <span class="title">{{title}}</span>
+                        <span class="info">{{where}} / {{when}}</span>
                     </p>
-                    <p class="entry">
-                        <span class="title">Graphic Designer</span>
-                        <span class="info">Perspective Lab / Jan. 2012 – May 2014</span>
-                    </p>
-                    <p class="entry">
-                        <span class="title">Graphic Design Intern</span>
-                        <span class="info">ATTIK / Sep. 2011 – Nov. 2011</span>
-                    </p>
-                    <p class="entry">
-                        <span class="title">Graphic Design Contractor</span>
-                        <span class="info">Liquid Agency / Aug. 2011 – Sep. 2011</span>
-                    </p>
-                    <p class="entry">
-                        <span class="title">Product/Industrial Designer</span>
-                        <span class="info">Brean Distributors Way Limited / Sep. 2006 – Jun. 2007</span>
-                    </p>
+                    {{/experience}}
                 </div>
                 <div id="Education">
                     <h2>Education</h2>
+                    {{#education}}
                     <p class="entry">
-                        <span class="title">Academy of Art University</span>
-                        <span class="info">MFA, Graphic Design / 2007 – 2011</span>
+                        <span class="title">{{school}}</span>
+                        <span class="info">{{degree}} / {{years}}</span>
                     </p>
-                    <p class="entry">
-                        <span class="title">University of Central England in Birmingham</span>
-                        <span class="info">BA (Hons.), Product Design (Industrial Design) / 2005 – 2006</span>
-                    </p>
-                    <p class="entry">
-                        <span class="title">Hong Kong Institute of Vocational Education</span>
-                        <span class="info">Higher Diploma, Product Design and Technology / 2002 – 2005</span>
-                    </p>
+                    {{/education}}
                 </div>
             </div>
         </section>
