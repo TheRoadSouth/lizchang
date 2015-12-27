@@ -88,4 +88,4 @@ Since this is not a high traffic website data access is very straightforward.  T
 
 #### Process Management
 
-Pm2 is used to management server processes for the application, as [outlined here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04).
+Pm2 is used to management server processes for the application, as [outlined here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04#manage-application-with-pm2).
