@@ -4,7 +4,6 @@
     <title>{{title}}</title>
     <meta name="description" content="{{description}}">
     <meta name="viewport" content="width=device-width">
-    <link rel="canonical" href="http://lizchangdesign.com" />
     <link rel='stylesheet' href='/css/normalize.css' />
     <link rel='stylesheet' href='/css/base.css' />
     <link rel='stylesheet' href='/css/main.css' />
