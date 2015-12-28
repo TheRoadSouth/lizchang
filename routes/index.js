@@ -6,8 +6,8 @@ var displayProject = require('./displayproject');
 var displaySection = require('./displaysection');
 
 router.get('/', function(req, res, next) {
-  var title = "Liz Chang | UI/UX Design",
-    desc = "Liz Chang is a UI/UX Designer in San Francisco. Visual and Product Design for Web and Mobile Platforms."
+  var title = 'Liz Chang | UI/UX Design',
+    desc = 'Liz Chang is a UI/UX Designer in San Francisco. Visual and Product Design for Web and Mobile Platforms.'
   displaySection(req, res, 'ui', title, desc);
 });
 
@@ -17,8 +17,8 @@ router.get('/:section/:id', function(req, res) {
 });
 
 router.get('/graphic', function(req, res, next) {
-  var title = "Liz Chang | Graphic Design",
-    desc = "Liz Chang's Graphic Design Portfolio. Graphic Design and Print Work."
+  var title = 'Liz Chang | Graphic Design',
+    desc = 'Liz Chang, Graphic Design Portfolio. Graphic Design and Print Work.'
   displaySection(req, res, 'graphic', title, desc);
 });
 
@@ -29,7 +29,8 @@ router.get('/about', function(req, res, next) {
     } else {
       var collection = db.collection('site').find().toArray(function(err, doc) {
         res.render('about', {
-          pageTitle: 'About Liz Chang',
+          pageTitle: 'Liz Chang | About',
+          metaDesc: 'About Liz Chang, UI/UX Designer in San Francisco, CA.',
           title: doc[0].about.bio.title,
           description: doc[0].about.bio.description,
           experience: doc[0].about.experience,
