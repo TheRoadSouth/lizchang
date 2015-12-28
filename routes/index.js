@@ -30,7 +30,7 @@ router.get('/about', function(req, res, next) {
       var collection = db.collection('site').find().toArray(function(err, doc) {
         res.render('about', {
           pageTitle: 'Liz Chang | About',
-          metaDesc: 'About Liz Chang, UI/UX Designer in San Francisco, CA.',
+          metaDesc: 'About Liz Chang, UI/UX Designer in San Francisco, CA. From Visual to Product Design.',
           title: doc[0].about.bio.title,
           description: doc[0].about.bio.description,
           experience: doc[0].about.experience,
