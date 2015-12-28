@@ -44,7 +44,7 @@
           </ul>
         </nav>
 
-        <section id="UI" class="portfolio">
+        <section class="portfolio">
           {{#projects}}
           <div id="Proj{{id}}" class="{{coverStyle}}">
             <a href="{{section}}/{{slug}}"><img src="{{imageCoverUrl}}" width="{{coverWidth}}" height="{{coverHeight}}" alt="{{title}} - Liz Chang" title="{{title}} - {{category}}" /></a>
