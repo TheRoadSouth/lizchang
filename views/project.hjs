@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Liz Chang Design: {{title}}</title>
+    <title>Liz Chang Design | {{title}}</title>
     <meta name="viewport" content="width=device-width">
     <link rel='stylesheet' href='/css/normalize.css' />
     <link rel='stylesheet' href='/css/base.css' />

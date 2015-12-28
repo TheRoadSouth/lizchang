@@ -1,7 +1,7 @@
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;
 
-var displaySection = function(req, res, section) {
+var displaySection = function(req, res, section, title, desc) {
   MongoClient.connect(req.app.settings.dburl, function (err, db) {
     if (err) {
       console.log('Unable to connect to the mongoDB server. Error:', err);
@@ -11,7 +11,11 @@ var displaySection = function(req, res, section) {
         docs.forEach(function(idx) {
           idx.category = idx.category.join(', ');
         });
-        res.render('index', { projects: docs });
+        res.render('index', {
+          projects: docs ,
+          title: title,
+          description: desc
+        });
         db.close();
       });
     }

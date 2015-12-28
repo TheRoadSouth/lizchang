@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Liz Chang | UI, Product & Visual Design</title>
-    <meta name="description" content="Liz Chang is a Web, Graphic & UI designer living in San Francisco, CA.">
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
     <meta name="viewport" content="width=device-width">
     <link rel="canonical" href="http://lizchangdesign.com" />
     <link rel='stylesheet' href='/css/normalize.css' />
