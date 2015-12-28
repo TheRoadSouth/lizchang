@@ -7,7 +7,7 @@ var displaySection = require('./displaysection');
 
 router.get('/', function(req, res, next) {
   var title = 'Liz Chang | UI/UX Design',
-    desc = 'Liz Chang is a UI/UX Designer in San Francisco. Visual and Product Design for Web and Mobile Platforms.'
+      desc = 'Liz Chang is a UI/UX Designer in San Francisco. Visual and Product Design for Web and Mobile Platforms.';
   displaySection(req, res, 'ui', title, desc);
 });
 
@@ -18,7 +18,7 @@ router.get('/:section/:id', function(req, res) {
 
 router.get('/graphic', function(req, res, next) {
   var title = 'Liz Chang | Graphic Design',
-    desc = 'Liz Chang, Graphic Design Portfolio. Graphic Design and Print Work.'
+      desc = 'Liz Chang, Graphic Design Portfolio. Graphic Design and Print Work.';
   displaySection(req, res, 'graphic', title, desc);
 });
 
