@@ -1,9 +1,9 @@
 module.exports = (function() {
   var currPath = window.location.pathname.split('/')[1],
-    navElems = document.querySelectorAll(".nav-link"),
-    UILink = document.getElementById('UI'),
-    GraphicLink = document.getElementById('Graphic'),
-    AboutLink = document.getElementById('About');
+      navElems = document.querySelectorAll(".nav-link"),
+      UILink = document.getElementById('UI'),
+      GraphicLink = document.getElementById('Graphic'),
+      AboutLink = document.getElementById('About');
 
   [].forEach.call(navElems, function(el) {
     el.classList.remove("active");
