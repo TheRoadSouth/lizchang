@@ -57,9 +57,7 @@ switched to db YOUR_DB_NAME
 
 #### Adding a Firewall
 
-For security purposes you should do a few things to lock down your database server. The bare minimum would be to set up a firewall and limit connections.
-
-https://www.digitalocean.com/community/tutorials/how-to-use-the-mongodb-one-click-application
+For security purposes you should do a few things to lock down your database server. The bare minimum would be to set up a firewall and [limit connections](https://www.digitalocean.com/community/tutorials/how-to-use-the-mongodb-one-click-application#accessing-remotely):
 
 ```bash
 sudo apt-get install ufw
