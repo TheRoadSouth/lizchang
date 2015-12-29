@@ -92,7 +92,7 @@ Pm2 is used to management server processes for the application, as [outlined her
 
 #### Build
 
-There is a simple build process in place for the app using webpack. `js/nav.js` as well as all css files are bundled in `js/main.js` and the output is pushed to `public/dist`. Assuming you have webpack installed, to create a production build simply run:
+There is a simple build process in place for the app using webpack. `js/nav.js` as well as all css files are bundled in `js/main.js` and the output is pushed to `public/dist`. Assuming you have webpack installed, to create a production build simply run the following command from the root:
 
 ```bash
 webpack -p
