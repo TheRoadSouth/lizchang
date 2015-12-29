@@ -1,3 +1,4 @@
+var compression = require('compression');
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -10,6 +11,8 @@ var db = nconf.get('database');
 var routes = require('./routes/index');
 
 var app = express();
+
+app.use(compression());
 
 // set mongodb url e.g. mongodb://12.34.56.789:27017/my_db_name
 app.set('dburl', db.host + ':' + db.port + '/' + db.name);
