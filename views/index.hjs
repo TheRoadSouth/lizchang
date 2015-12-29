@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/dist/style.css">
+    <script async src="/dist/main.js"></script>
     <!--[if lte IE 9]>
     <script src="/js/vendor/html5shiv-printshiv.js"></script>
     <![endif]-->
@@ -43,9 +44,6 @@
             </li>
           </ul>
         </nav>
-
-        <!-- load nav js before portfolio images -->
-        <script src="/dist/main.js"></script>
 
         <section class="portfolio">
           {{#projects}}
