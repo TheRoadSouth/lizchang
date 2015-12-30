@@ -70,7 +70,7 @@ sudo ufw enable
 
 ## App Setup
 
-The app itself is a simple Node.js app using Express. There are just a few things worth pointing out.
+The app itself is a simple [Node.js](https://nodejs.org/) app using [Express](http://expressjs.com/). There are just a few things worth pointing out.
 
 #### Configuration
 
@@ -86,11 +86,11 @@ Since this is not a high traffic website data access is very straightforward.  T
 
 #### Process Management
 
-Pm2 is used to management server processes for the application, as [outlined here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04#manage-application-with-pm2).
+[pm2](http://pm2.keymetrics.io/) is used to management server processes for the application, as [outlined here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04#manage-application-with-pm2).
 
 #### Build
 
-There is a simple build process in place for the app using webpack. `js/nav.js` as well as all css files are bundled in `js/main.js` and the output is pushed to `public/dist`. Assuming you have webpack installed, to create a production build simply run the following command from the root:
+There is a simple build process in place for the app using [Webpack](http://webpack.github.io/). `js/nav.js` as well as all css files are bundled in `js/main.js` and the output is pushed to `public/dist`. Assuming you have webpack installed, to create a production build simply run the following command from the root:
 
 ```bash
 webpack -p
