@@ -1,6 +1,6 @@
 # lizchang
 
-This is a simple Node.js / MongoDB app that powers my wife's [design portfolio](http://lizchangdesign.com). There are different ways to set this up. You could run it off of the `data.json` file directly using the [FS Module](https://nodejs.org/api/fs.html), or you could set it up to use MongoDB. I've done the latter, so I will run through the basics of how to do that here.
+This is a simple Node.js / MongoDB app that powers my wife's [design portfolio](http://lizchangdesign.com). There are different ways to set this up. You could run it off of the `data.json` file directly using the [FS Module](https://nodejs.org/api/fs.html), or you could set it up to use [MongoDB](https://www.mongodb.com/). I've done the latter, so I will run through the basics of how to do that here.
 
 ## Server Setup
 
