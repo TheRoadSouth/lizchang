@@ -6,7 +6,7 @@ This is a simple [Node.js](https://nodejs.org/) / [MongoDB](https://www.mongodb.
 
 #### Basics
 
-The site runs on two Digital Ocean linux droplets. The first server is for the application itself, and the second is for the Mongo database. Detailed setup for Ubuntu servers at Digital Ocean is [covered on their site](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04), but the general idea is:
+The site runs on two [Digital Ocean](http://digitalocean.com/) Linux droplets. The first server is for the application itself, and the second is for the Mongo database. Detailed setup for Ubuntu servers at Digital Ocean is [covered on their site](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04), but the general idea is:
 
 * Add two droplets and add a new ssh key in control panel
 * Create new root password for your servers
