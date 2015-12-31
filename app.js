@@ -12,6 +12,7 @@ var routes = require('./routes/index');
 
 var app = express();
 
+// gzip contents
 app.use(compression());
 
 // set mongodb url e.g. mongodb://12.34.56.789:27017/my_db_name

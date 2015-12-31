@@ -86,7 +86,7 @@ Since this is not a high traffic website data access is very straightforward.  T
 
 #### Process Management
 
-[pm2](http://pm2.keymetrics.io/) is used to management server processes for the application, as [outlined here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04#manage-application-with-pm2).
+[pm2](http://pm2.keymetrics.io/) is used to manage server processes for the application, as [outlined here](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04#manage-application-with-pm2).
 
 #### Build
 
