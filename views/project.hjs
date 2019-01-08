@@ -36,7 +36,7 @@
               <a href="/graphic" class="graphic">Graphic/Print</a>
             </li>
             <li id="CaseStudies" class="nav-link">
-              <a href="https://drive.google.com/open?id=174Bncw5zEG_vwtCagsCk_4QjbdKWb_VhbxK4_qJzQIw" class="case-studies">Case Studies</a>
+              <a target=”_blank” href="https://drive.google.com/open?id=174Bncw5zEG_vwtCagsCk_4QjbdKWb_VhbxK4_qJzQIw" class="case-studies">Case Studies</a>
             </li>
             <li id="About" class="nav-link last">
               <a href="/about" class="about">About</a>
@@ -50,7 +50,7 @@
             </div>
             <div class="right">
                 <div class="right-inner">
-                    <a class="back" href="{{returnUrl}}">&laquo; back</a>
+                    <a class="back" href="{{}}">&laquo; back</a>
                     <h2>{{title}}</h2>
                     <div class="grey">{{{projDesc}}}</div>
                     <div class="additional-info">
