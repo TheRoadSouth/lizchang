@@ -13,7 +13,7 @@ var displayProject = function(req, res, returnUrl) {
           res.render('project', {
             title: project.title,
             projDesc: project.description,
-            returnUrl: req.params.section === 'graphic' ? '/graphic' : '',
+            returnUrl: req.params.section === 'graphic' ? '/graphic' : '//',
             imageHeight: project.imageHeight,
             imageWidth: project.imageWidth,
             client: project.client,
