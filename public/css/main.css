@@ -15,6 +15,10 @@ div a {
   color: #959595;
 }
 
+.grey a {
+  color: #E55A1E;
+}
+
 header,
 nav,
 article,
@@ -147,6 +151,7 @@ section .fullwidth {
 	margin: 5px;
 	float: left;
 	cursor: pointer;
+  border: 1px solid #eee;
 }
 
 section .fullwidth {
@@ -243,6 +248,15 @@ nav ul li a:active {
 
 #NavSecondary ul li {
 	margin-left: 12px;
+}
+
+@media (max-width: 960px) {
+  #NavMain ul li {
+  	padding-right: 15px;
+  }
+  #NavMain ul li a {
+  	font-size: .9em;
+  }
 }
 
 .email {
