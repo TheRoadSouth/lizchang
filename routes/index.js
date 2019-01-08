@@ -12,13 +12,14 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/:section/:id', function(req, res) {
-  var returnUrl = '/';
+  var returnUrl = req.params.section === 'graphic' ? '/graphic' : '/';
   displayProject(req, res, returnUrl);
 });
 
 router.get('/graphic', function(req, res, next) {
   var title = 'Liz Chang | Graphic Design',
-      desc = 'Liz Chang, Graphic Design Portfolio. Graphic Design and Print Work.';
+      desc = 'Liz Chang, Graphic Design Portfolio. Graphic Design and Print Work.',
+      returnUrl = '/graphic';
   displaySection(req, res, 'graphic', title, desc);
 });
 

@@ -13,7 +13,6 @@ var displayProject = function(req, res, returnUrl) {
           res.render('project', {
             title: project.title,
             projDesc: project.description,
-            returnUrl: req.params.section === 'graphic' ? '/graphic' : '//',
             imageHeight: project.imageHeight,
             imageWidth: project.imageWidth,
             client: project.client,
@@ -22,7 +21,8 @@ var displayProject = function(req, res, returnUrl) {
             url: project.url,
             completedAt: project.completedAt,
             completedDate: project.completedDate,
-            imageFullUrl: project.imageFullUrl
+            imageFullUrl: project.imageFullUrl,
+            returnUrl: returnUrl
           });
 
           db.close();

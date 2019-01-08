@@ -50,7 +50,7 @@
             </div>
             <div class="right">
                 <div class="right-inner">
-                    <a class="back" href="{{}}">&laquo; back</a>
+                    <a class="back" href="{{returnUrl}}">&laquo; back</a>
                     <h2>{{title}}</h2>
                     <div class="grey">{{{projDesc}}}</div>
                     <div class="additional-info">
