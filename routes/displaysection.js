@@ -12,7 +12,7 @@ var displaySection = function(req, res, section, title, desc) {
           idx.category = idx.category.join(', ');
         });
         res.render('index', {
-          projects: docs ,
+          projects: docs,
           title: title,
           description: desc
         });
