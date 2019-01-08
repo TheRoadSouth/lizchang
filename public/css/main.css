@@ -368,10 +368,19 @@ nav ul li a:active {
 		max-width: 100% !important;
 		height: auto !important;
 	}
+  .right {
+  	width: 320px;
+  }
 }
 
 .right-inner {
 	padding: 0px 0px 10px 38px;
+}
+
+@media (max-width: 960px) {
+  .right-inner {
+  	padding: 0px 0px 10px 0px;
+  }
 }
 
 .right-inner h2 {
