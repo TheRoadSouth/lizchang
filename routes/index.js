@@ -6,7 +6,7 @@ var displayProject = require('./displayproject');
 var displaySection = require('./displaysection');
 
 router.get('/', function(req, res, next) {
-  var title = 'Liz Chang | UI/UX Design',
+  var title = 'Liz Chang | Product and Visual Design',
       desc = 'Liz Chang is a UI/UX Designer in San Francisco. Visual and Product Design for Web and Mobile Platforms.';
   displaySection(req, res, 'ui', title, desc);
 });
